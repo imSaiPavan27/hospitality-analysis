@@ -164,11 +164,12 @@ Here is the list of metrics:
 | DBRN  |  calculate DBRN(Daily Booked Room Nights). This metrics tells on average how many rooms are booked for a day considering a time period |
 | DSRN   |  calculate DSRN(Daily Sellable Room Nights). This metrics tells on average how many rooms are ready to sell for a day considering a time period. |
 | DURN | calculate DURN(Daily Utilized Room Nights). This metric tells on average how many rooms are succesfully utilized by customers for a day considering a time period |
-| Revenue WoW change % | To get the revenue change percentage week over week.
-Here, 
-revcw  for current week
-revpw for previous week|
-
+| Revenue WoW change % | To get the revenue change percentage week over week. Here, revcw  for current week, revpw for previous week |
+|  Occupancy WoW change % | To get the occupancy change percentage week over week.Here, revcw  for current week ,revpw for previous week  |
+| ADR WoW change %  | To get the ADR(Average Daily rate) change percentage week over week.Here, revcw  for current week, revpw for previous week  |
+| Revpar WoW change % |  To get the RevPar(Revenue Per Available Room) change percentage week over week. Here, revcw  for current week, revpw for previous week |
+| Realisation WoW change %  |  To get the Realisation change percentage week over week. Here, revcw  for current week, revpw for previous week |
+| DSRN WoW change % | To get the DSRN(Daily Sellable Room Nights) change percentage week over week.Here, revcw  for current week, revpw for previous week  |
 
 ## Filters Used
 

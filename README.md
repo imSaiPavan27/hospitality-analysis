@@ -158,10 +158,7 @@ Here is the list of metrics:
 | No Show rate %  | calculating the no show percentage.  |
 | Booking % by Platform  |  To show the percentage contribution of each booking platform for bookings in hotels. |
 | Booking % by Room class  |  To show the percentage contribution of each room class over total rooms booked. |
-|  ADR  |  Calculate the ADR(Average Daily rate)
-
-It is the ratio of revenue to the total rooms booked/sold. 
-It is the measure of the average paid for rooms sold in a given time period |
+|  ADR  |  Calculate the ADR(Average Daily rate). It is the ratio of revenue to the total rooms booked/sold. It is the measure of the average paid for rooms sold in a given time period |
 |   |   |
 |   |   |
 |   |   |

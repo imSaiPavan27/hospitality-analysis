@@ -107,7 +107,9 @@ This section includes metrics specific to the hospitality industry, such as reve
 Here is a list of these financial metrics used in the hospitality industry.
 
 **Revenue** as we know is the most common metric used in every industry.
+
 **RevPAR** – Revenue generated per available room.
+
 **ADR** – Average Daily Rate is the average daily price per room.
 
 These are the main financial statistics that we need to look at micro to macro level.

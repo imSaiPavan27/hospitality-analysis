@@ -142,6 +142,33 @@ Here is the list of metrics:
 
 **WoW** – Week on Week is the metric to compare the performance change over the week.
 
+| Measures | Description |
+| ------ | ---------- |
+| Revenue | It is the most common metric used in every industry to get the total revenue_realized | 
+| Total Bookings  | To get the total number of bookings happened | 
+| Total Capacity | To get the total capacity of rooms present in hotels | 
+| Total Succesful Bookings  | To get the total succesful bookings happened for all hotels | 
+| Occupancy %  | Occupancy means total successful bookings happened to the total rooms available(capacity) | 
+| Average Rating  |  Get the average ratings given by the customers |
+| No of days  | To get the total number of days present in the data.In our case, we have data from May to July. So 92 days.|
+| Total cancelled bookings | To get the"Cancelled" bookings out of all Total bookings happened  |
+| Cancellation % |  calculating the cancellaton percentage. |
+| Total Checked Out |  To get the successful 'Checked out' bookings out of all Total bookings happened |
+| Total no show bookings  | "No show" means those customers who neither cancelled nor attend to their booked rooms |
+| No Show rate %  | calculating the no show percentage.  |
+| Booking % by Platform  |  To show the percentage contribution of each booking platform for bookings in hotels. |
+| Booking % by Room class  |  To show the percentage contribution of each room class over total rooms booked. |
+|  ADR  |  Calculate the ADR(Average Daily rate)
+
+It is the ratio of revenue to the total rooms booked/sold. 
+It is the measure of the average paid for rooms sold in a given time period |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+
 
 ## Filters Used
 

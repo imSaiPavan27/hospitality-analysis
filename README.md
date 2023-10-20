@@ -1,39 +1,37 @@
-#Provide Insights to the Revenue Team in the Hostility Domain
+# Provide Insights to the Revenue Team in the Hostility Domain
 
 ## Overview
-The Project is about the  company called AtliQ Grands which owns multiple Five-Star hotels across India. AtliQ Grands is losing business to competitors due to their management’s ineffective decision-making.
+This project focuses on AtliQ Grands, a renowned company operating a chain of luxury five-star hotels throughout India. Unfortunately, AtliQ Grands is currently facing fierce competition, and their market share and revenue in the luxury and business hotel sector are declining due to ineffective management decisions. To counter this, the revenue management team is harnessing Business and Data intelligence to identify and bridge the gaps that are affecting their business.
 
-Now AtliQ Grands is losing its market share and revenue in the luxury/business hotels category. The revenue management team has decided to use Business and Data intelligence to identify the gaps and make decisions accordingly.
-
-They are looking for a Data Analyst who can provide them with the relevant insights to help them solve this problem.
+Their immediate goal is to find a skilled Data Analyst who can provide them with valuable insights to address these challenges.
 
 ## Tasks
-1. Create the metrics according to the metric list.
-2. Create a dashboard according to the mock-up provided by stakeholders.
-3. Create relevant insights not provided in the metric list/mock-up dashboard.
+1. Develop essential metrics based on a predefined list.
+2. Construct a dashboard according to the specifications provided by stakeholders.
+3. Generate insightful findings that go beyond what is outlined in the predefined metric list and mock-up dashboard.
 
 
 ### AtliQ Grands
-- AtliQ Grands a five stars hotel chain is operating in 4 cities.
-- It has 7 properties with branches in all these 4 cities.
-- The rooms in these properties are categorized into 4 categories: Elite, Premium, Presidential, & Standard.
-- There are 6 main platforms to book the rooms and some other platforms that are not as effective as others.
+- AtliQ Grands, a prestigious five-star hotel chain, operates in four major cities.
+- Their portfolio comprises seven distinct properties spread across these four cities.
+- Their properties offer rooms categorized as Elite, Premium, Presidential, and Standard.
+- Booking options encompass six main platforms along with some less effective alternatives.
 
 ## Dataset Provided By Codebasics
 
-- **dim_date** – This table contains dates, week numbers, and day type (weekend and weekday)
+- **dim_date** – This table contains date-related information, including dates, week numbers, and day types (weekend and weekday).
 
-- **dim_hotels** – This table contains data like property id, property name, category, and cities
+- **dim_hotels** – This table provides data on property identifiers, property names, categories, and city locations.
 
-- **dim_rooms** – This table includes room_id and room class
+- **dim_rooms** – This table details room identifiers and room classifications.
 
-- **fact_aggregated_bookings** – This is a fact tale that contains property id, check-in date, room category, successful bookings, and capacity
+- **fact_aggregated_bookings** – his fact table features property IDs, check-in dates, room categories, successful bookings, and capacity information.
 
-- **metrics list** – this data set contains a list of key measures that I will share later along with the DAX formulas used to build these metrics.
+- **metrics list** – This dataset contains a collection of key performance measures, complete with the DAX formulas used to compute them.
 
-- **fact_bookings** – This is another fact table that contains extra data like financials. The data are booking id, property id, booking date, check-out date, check-in date, number of guests, room category, booking platform, ratings, booking status, revenue generated, and revenue realized
+- **fact_bookings** – Tnother fact table, it includes supplementary data such as financial details. This data encompasses booking IDs, property IDs, booking dates, check-out dates, check-in dates, guest counts, room categories, booking platforms, ratings, booking statuses, revenue generated, and revenue realized.
 
-There is a list of visual metrics provided by the stakeholders to look into.
+The stakeholders have provided a list of visual metrics to be examined:
 
 + **Trends By Weeks** –
    - Revenue
@@ -59,22 +57,23 @@ There is a list of visual metrics provided by the stakeholders to look into.
     - Occupancy %
     - Avg rating %
     - Cancellation rate %
-+ **% change vs the previous month**
++ **Percentage Change vs. the Previous Month**
+
 ## Mockup Dashboard
-
-
-AtliQ hospitality data analytics project mockup dashboard
+The project's mockup dashboard presents a preview of the AtliQ hospitality data analytics initiative.
 
 ## Dashboard Created
 Dashboard Link
 
-Using all the information and data provided by the stakeholders, I analyzed and created this report. This report shows metrics that will help solve the problems faced by AtliQ Grands’s management in generating good revenue.
+We have successfully created a comprehensive dashboard using the information and data provided by stakeholders. This dashboard showcases crucial metrics to aid AtliQ Grands' management in improving revenue generation.e.
 
-## Data Model Created
+## Data Model Structure
 
-It is a star schema where the fact table/tables are in the centre and they are surrounded by dimension tables.
+The data model utilizes a star schema with fact tables at its core, surrounded by dimension tables.
 
 ### Data Cleaned
+We performed data cleaning and derived relevant information using DAX formulas, such as calculating the week number from the date column and determining the day type. We also calculated the revenue from the available data, including "revenue_generated" and "revenue_realized."
+
 **Derived week number from date column using DAX formula** =
 wn = WEEKNUM(dim_date[date])
 **Derived day type from date column using DAX formula** =
@@ -96,14 +95,14 @@ Revenue = SUM(fact_bookings[revenue_realized])
 
 Rest all the data was clean and not many changes were required to do.
 
-Report Pages Created
-Report
+### Report Pages
+The report offers various pages and views for in-depth analysis:
 
 **Report View**
-It is a consolidated view of financial statistics along with the performance of the hotels.
+This consolidated view features financial statistics and hotel performance metrics.
 
 **Financial Stats**
-The financial stats added in this report are the typical metrics that are used only in the hospitality sector. This includes revenue, cancellations, room-level pricing etc.
+This section includes metrics specific to the hospitality industry, such as revenue, cancellations, and room-level pricing.
 
 Here is a list of these financial metrics used in the hospitality industry.
 
@@ -132,16 +131,16 @@ Here is the list of metrics:
 **WoW** – Week on Week is the metric to compare the performance change over the week.
 
 ## Filters Used
-**Week Number** – To view each week’s performance.
-**Month** – To measure monthly performance.
-**Property** – This will give insights into each property that will help in effective decision-making.
-**City** – This filter helps in knowing the market value of AtilQ
-**Room Class** – Looking into room class can drill down the problems and challenges faced by hotels. Example: Ratings will help in improving the standards of the room. Availability will help in providing more rooms with the category in high demand.
-**Booking Platforms** – Choosing booking platforms provides insights to the marketing team to target accordingly. Also, improving AtliQ’s own platforms for generating direct revenue.
+**Week Number** – To review each week’s performance.
+**Month** – To assess monthly performance.
+**Property** – This filter provides insights into each property, facilitating decision-making.
+**City** – It helps in evaluating the market value of AtliQ.
+**Room Class** – This filter allows a detailed examination of room categories, aiding in improving room standards and availability.
+**Booking Platforms** – By selecting booking platforms, the marketing team can target their efforts more effectively.
 
 
 ## Finance View
-The finance view includes similar filters to the consolidated report page and excludes the performance metrics. Here all the charts are providing financial performance on micro and macro levels (after applying filters).
+The finance view provides financial analysis by applying various filters, excluding performance metrics. It focuses on micro and macro-level financial performance, including realization, RevPAR, ADR, and more.
 
 This report is for financial analysis of the business.
 
@@ -161,13 +160,13 @@ This report is for financial analysis of the business.
 
 
 ## Learnt things from this Project
-- Learnt to build a new visual (Calendar visual) using matrix table, which can be utilized for different purpose of analyze.
-- By referring different cancellation polices followed by different hotels, understood that most of the hotels charge zero fee, only if the booking is cancelled before three months of booking date.
-- If the booking is cancelled after that, the charge range from 60 to 90% of the booking cost.
+- We acquired the skill to create a new visual, such as a calendar visual, using a matrix table for diverse analytical purposes.
+- By examining different cancellation policies employed by various hotels, we learned that most hotels charge zero fees for cancellations made three months before the booking date.
+- For cancellations after this period, charges typically range from 60% to 90% of the booking cost.
 
 ## Some Important insights from the Dashboard
-- Mumbai generates the highest revenue (669 M) followed by Bangalore, Hyderabad, and Delhi.
-- AtliQ Bay has the highest occupancy of 66%
-- Week 24 recorded the highest revenue among all, which is 139.6 Million
-- AtliQ lost around 298 Million in cancellation
-- Elite type rooms has the most booking and as well higher cancellation rate
+- Mumbai stands out as the top revenue generator at 669 million, followed by Bangalore, Hyderabad, and Delhi.
+- AtliQ Bay boasts the highest occupancy rate at 66%.
+- Week 24 recorded the highest revenue of 139.6 million.
+- AtliQ experienced a loss of approximately 298 million due to cancellations.
+- Elite-type rooms show the highest number of bookings, but also a relatively higher cancellation rate.

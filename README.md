@@ -159,7 +159,7 @@ Here is the list of metrics:
 | Booking % by Platform  |  To show the percentage contribution of each booking platform for bookings in hotels. |
 | Booking % by Room class  |  To show the percentage contribution of each room class over total rooms booked. |
 |  ADR  |  Calculate the ADR(Average Daily rate). It is the ratio of revenue to the total rooms booked/sold. It is the measure of the average paid for rooms sold in a given time period |
-|   |   |
+|  Realisation % |  calculate  the realisation percentage.It is nothing but the succesful "checked out" percentage over all bookings happened.|
 |   |   |
 |   |   |
 |   |   |

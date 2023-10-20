@@ -158,13 +158,16 @@ Here is the list of metrics:
 | No Show rate %  | calculating the no show percentage.  |
 | Booking % by Platform  |  To show the percentage contribution of each booking platform for bookings in hotels. |
 | Booking % by Room class  |  To show the percentage contribution of each room class over total rooms booked. |
-|  ADR  |  Calculate the ADR(Average Daily rate). It is the ratio of revenue to the total rooms booked/sold. It is the measure of the average paid for rooms sold in a given time period |
+| ADR  |  Calculate the ADR(Average Daily rate). It is the ratio of revenue to the total rooms booked/sold. It is the measure of the average paid for rooms sold in a given time period |
 |  Realisation % |  calculate  the realisation percentage.It is nothing but the succesful "checked out" percentage over all bookings happened.|
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
+| RevPAR  |  Calculate the RevPAR(Revenue Per Available Room) RevPAR represents the revenue generated per available room, whether or not they are occupied. RevPAR helps hotels measure their revenue generating performance to accurately price rooms. RevPAR can help hotels measure themselves against other properties or brands. |
+| DBRN  |  calculate DBRN(Daily Booked Room Nights). This metrics tells on average how many rooms are booked for a day considering a time period |
+| DSRN   |  calculate DSRN(Daily Sellable Room Nights). This metrics tells on average how many rooms are ready to sell for a day considering a time period. |
+| DURN | calculate DURN(Daily Utilized Room Nights). This metric tells on average how many rooms are succesfully utilized by customers for a day considering a time period |
+| Revenue WoW change % | To get the revenue change percentage week over week.
+Here, 
+revcw  for current week
+revpw for previous week|
 
 
 ## Filters Used

@@ -119,23 +119,40 @@ The stats related to performance includes the hotel’s occupancy, cancellation 
 Here is the list of metrics:
 
 **DSRN** – Daily Sellable Room Nights is the metric used for available rooms that can be sold. Example: If there are 100 rooms in a hotel and 20 rooms are not available for any XYZ reason, the DSRN here is 80.
+
 **DBRN** – Daily Booked Room Nights are the number of nights booked per night.
+
 **DURN** – Daily Utilized Room Nights are the nights utilized or used by the customers. This can be the checked-in nights.
+
 **Cancellation %** – As the name suggests, it is the percentage of cancelled bookings.
+
 **Avg Rating** – Average rating is the average rating given by a customer per booking.
+
 **Day Type** – Day is the category of days in a week. Weekday and Weekend. In the hospitality sector, the weekend is Friday and Saturday. Most of the customers checkout on Sunday.
+
 **Booking Platforms** – Booking platforms are the modes that are used by customers to book rooms. These include AtliQ’s own booking platform and third-party platforms as well.
+
 **Week Number**– Week number is the number of weeks in a year.
+
 **Property Name** – Property name is the name of individual hotels.
+
 **Property ID** – Property ID is the unique ID given to the properties.
+
 **WoW** – Week on Week is the metric to compare the performance change over the week.
 
+
 ## Filters Used
+
 **Week Number** – To review each week’s performance.
+
 **Month** – To assess monthly performance.
+
 **Property** – This filter provides insights into each property, facilitating decision-making.
+
 **City** – It helps in evaluating the market value of AtliQ.
+
 **Room Class** – This filter allows a detailed examination of room categories, aiding in improving room standards and availability.
+
 **Booking Platforms** – By selecting booking platforms, the marketing team can target their efforts more effectively.
 
 

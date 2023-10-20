@@ -118,17 +118,7 @@ These are the main financial statistics that we need to look at micro to macro l
 **Performance**
 The stats related to performance includes the hotel’s occupancy, cancellation %, room availability etc. All these factors directly contribute to the revenue. And some of these factors are controllable by the management whereas some factors are uncontrollable.
 
-Here is the list of metrics:
-
-**DSRN** – Daily Sellable Room Nights is the metric used for available rooms that can be sold. Example: If there are 100 rooms in a hotel and 20 rooms are not available for any XYZ reason, the DSRN here is 80.
-
-**DBRN** – Daily Booked Room Nights are the number of nights booked per night.
-
-**DURN** – Daily Utilized Room Nights are the nights utilized or used by the customers. This can be the checked-in nights.
-
-**Cancellation %** – As the name suggests, it is the percentage of cancelled bookings.
-
-**Avg Rating** – Average rating is the average rating given by a customer per booking.
+Here is the list of basics:
 
 **Day Type** – Day is the category of days in a week. Weekday and Weekend. In the hospitality sector, the weekend is Friday and Saturday. Most of the customers checkout on Sunday.
 
@@ -141,6 +131,8 @@ Here is the list of metrics:
 **Property ID** – Property ID is the unique ID given to the properties.
 
 **WoW** – Week on Week is the metric to compare the performance change over the week.
+
+Here is the list of measures:
 
 | Measures | Description |
 | ------ | ---------- |

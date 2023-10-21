@@ -177,27 +177,6 @@ Here is the list of measures:
 
 **Booking Platforms** – By selecting booking platforms, the marketing team can target their efforts more effectively.
 
-
-## Finance View
-The finance view provides financial analysis by applying various filters, excluding performance metrics. It focuses on micro and macro-level financial performance, including realization, RevPAR, ADR, and more.
-
-This report is for financial analysis of the business.
-
-**Realization** – Utilized Room Nights / Booked Room Nights
-
-**RevPAR** – Revenue Per Available Room
-
-**ADR** – Average Daily Rate
-
-**DBRN** – Daily Booked Room Nights
-
-**DSRN** -  Daily Sellable Room Nights
-
-**DURN** -  Daily Utilized Room Nights
-
-**Revenue WoW change %** - Revenue Week Over Week Change
-
-
 ## Learnt things from this Project
 - We acquired the skill to create a new visual, such as a calendar visual, using a matrix table for diverse analytical purposes.
 - By examining different cancellation policies employed by various hotels, we learned that most hotels charge zero fees for cancellations made three months before the booking date.

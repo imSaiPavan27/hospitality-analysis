@@ -1,15 +1,22 @@
 # Provide Insights to the Revenue Team in the Hospitality Domain
 ### Live Interactive Dashboard : [Link to Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZjFhMmY2MmEtNzVjOC00NDM4LTg2YTQtMDVjZjJhYzI2OWIzIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
-## Overview
+
+## 1. Overview
 This project focuses on AtliQ Grands, a renowned company operating a chain of luxury five-star hotels throughout India. Unfortunately, AtliQ Grands is currently facing fierce competition, and their market share and revenue in the luxury and business hotel sector are declining due to ineffective management decisions. To counter this, the revenue management team is harnessing Business and Data intelligence to identify and bridge the gaps that are affecting their business.
 
 Their immediate goal is to find a skilled Data Analyst who can provide them with valuable insights to address these challenges.
 
-## Tasks
+## 2. Projeect Goals
 1. Develop essential metrics based on a predefined list.
 2. Construct a dashboard according to the specifications provided by stakeholders.
 3. Generate insightful findings that go beyond what is outlined in the predefined metric list and mock-up dashboard.
 
+## 3. Import & Explore Data
+### A. Importing Data into Power Bi
+Importing the AtliQ's data into the Power BI. The data includes both fact and dimension tables.
+
+### B. Using SQL to Explore Data
+Exploring the available data is crucial for effective analysis. Before diving into the analysis, gain a good understanding of the available data. 
 
 ### AtliQ Grands
 - AtliQ Grands, a prestigious five-star hotel chain, operates in four major cities.
@@ -85,9 +92,9 @@ The different views are:
 
 | Views | Description | 
 | ------ | ----------- | 
-| Overall | It gives an overview of the fundamental data generation process and used to notify updates | 
-| Revenue | It enables users to analyze P&L statements ,understanding the net sales and expolring other fiscal metrics |
-| Booking   | It shows a detailed analysis of sales efforts, supporting in improvement of strategy and informed decison making |
+| Overall | It gives an overview of the all the data which belongs to revenue, bookings, ratings etc. | 
+| Revenue | It enables users to analyze revneue of the AtliQ's hotels and enables to understand the total bookings and expolring other financial metrics|
+| Booking   | It shows a detailed analysis of bookings efforts, which supports in explaining different key metrics |
 
 **Performance**
 The stats related to performance includes the hotel’s occupancy, cancellation %, room availability etc. All these factors directly contribute to the revenue. And some of these factors are controllable by the management whereas some factors are uncontrollable.

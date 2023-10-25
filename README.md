@@ -67,6 +67,27 @@ Dashboard Link
 
 We have successfully created a comprehensive dashboard using the information and data provided by stakeholders. This dashboard showcases crucial metrics to aid AtliQ Grands' management in improving revenue generation.e.
 
+##  Data Modelling
+Data modeling is the foundation of the report. All visuals are built upon the data model. Poor data modeling can affect the overall performance of the report. 
+
+After importing data into the Power BI, the following procedures are to be followed:
+1. Cleaning, formatting and transforming the data using power query
+2. Establishing relationships among the  tables, employing either **Star Schema** or the **Snow Flake** methodology.
+3. Subsequently, conducting data validation against the benchmarks set by the stakeholders
+
+##  Dashboard Designing
+Based on mockups received as requirements, the team will start designing visuals and creating measures as needed.
+
+### Home View
+In the Home view, all the view buttons will be accessible. Users will land on specific view pages by clicking the button and you can navigate to the certain view.
+
+The different views are:
+
+| Views | Description | 
+| ------ | ----------- | 
+| Overall | It gives an overview of the fundamental data generation process and used to notify updates | 
+| Revenue | It enables users to analyze P&L statements ,understanding the net sales and expolring other fiscal metrics |
+| Booking   | It shows a detailed analysis of sales efforts, supporting in improvement of strategy and informed decison making |
 
 **Performance**
 The stats related to performance includes the hotel’s occupancy, cancellation %, room availability etc. All these factors directly contribute to the revenue. And some of these factors are controllable by the management whereas some factors are uncontrollable.

@@ -1,4 +1,4 @@
-# Provide Insights to the Revenue Team in the Hostility Domain
+# Provide Insights to the Revenue Team in the Hospitality Domain
 
 ## Overview
 This project focuses on AtliQ Grands, a renowned company operating a chain of luxury five-star hotels throughout India. Unfortunately, AtliQ Grands is currently facing fierce competition, and their market share and revenue in the luxury and business hotel sector are declining due to ineffective management decisions. To counter this, the revenue management team is harnessing Business and Data intelligence to identify and bridge the gaps that are affecting their business.

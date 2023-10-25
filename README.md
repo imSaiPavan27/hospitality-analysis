@@ -1,6 +1,9 @@
 # Hospitality Analysis
+
 ### Live Interactive Dashboard : [Link to Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZjFhMmY2MmEtNzVjOC00NDM4LTg2YTQtMDVjZjJhYzI2OWIzIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
+
 ### Linkedin Post : [Link to post](https://www.linkedin.com/posts/saipavankumar27_hospitality-domain-presentation-activity-7122955882279141377-syN0?utm_source=share&utm_medium=member_desktop)
+
 ## 1. Overview
 This project focuses on AtliQ Grands, a renowned company operating a chain of luxury five-star hotels throughout India. Unfortunately, AtliQ Grands is currently facing fierce competition, and their market share and revenue in the luxury and business hotel sector are declining due to ineffective management decisions. To counter this, the revenue management team is harnessing Business and Data intelligence to identify and bridge the gaps that are affecting their business.
 
@@ -18,13 +21,13 @@ Importing the AtliQ's data into the Power BI. The data includes both fact and di
 ### B. Using SQL to Explore Data
 Exploring the available data is crucial for effective analysis. Before diving into the analysis, gain a good understanding of the available data. 
 
-### AtliQ Grands
+#### AtliQ Grands
 - AtliQ Grands, a prestigious five-star hotel chain, operates in four major cities.
 - Their portfolio comprises seven distinct properties spread across these four cities.
 - Their properties offer rooms categorized as Elite, Premium, Presidential, and Standard.
 - Booking options encompass six main platforms along with some less effective alternatives.
 
-### Dataset Provided By Codebasics
+#### Dataset Provided By Codebasics
 
 - **dim_date** – This table contains date-related information, including dates, week numbers, and day types (weekend and weekday).
 - **dim_hotels** – This table provides data on property identifiers, property names, categories, and city locations.
@@ -33,40 +36,7 @@ Exploring the available data is crucial for effective analysis. Before diving in
 - **metrics list** – This dataset contains a collection of key performance measures, complete with the DAX formulas used to compute them.
 - **fact_bookings** – Tnother fact table, it includes supplementary data such as financial details. This data encompasses booking IDs, property IDs, booking dates, check-out dates, check-in dates, guest counts, room categories, booking platforms, ratings, booking statuses, revenue generated, and revenue realized.
 
-The stakeholders have provided a list of visual metrics to be examined:
-
-+ **Trends By Weeks** –
-   - Revenue
-   - Occupancy %
-   - Avg Rating
-+ **Split By City** –
-   - Revenue
-   - Occupancy %
-   - Avg Rating
-+ **Occupancy By Day Type**
-+ **Booking% by Platform**
-+ **Filters** –
-   - Properties
-   - City
-   - Status
-   - Platform
-   - Month
-   - Week
-+ **Table** –
-    - Hotels property id
-    - City
-    - Revenue
-    - Occupancy %
-    - Avg rating %
-    - Cancellation rate %
-+ **Percentage Change vs. the Previous Month**
-
-## 4. Mockup Dashboard
-The project's mockup dashboard presents a preview of the AtliQ hospitality data analytics initiative.
-
-
-
-##  Data Modelling
+##  4. Data Modelling
 Data modeling is the foundation of the report. All visuals are built upon the data model. Poor data modeling can affect the overall performance of the report. 
 
 After importing data into the Power BI, the following procedures are to be followed:
@@ -91,10 +61,15 @@ The different views are:
 Here is the list of basics:
 
 **Day Type** – Day is the category of days in a week. Weekday and Weekend. In the hospitality sector, the weekend is Friday and Saturday. Most of the customers checkout on Sunday.
+
 **Booking Platforms** – Booking platforms are the modes that are used by customers to book rooms. These include AtliQ’s own booking platform and third-party platforms as well.
+
 **Week Number**– Week number is the number of weeks in a year.
+
 **Property Name** – Property name is the name of individual hotels.
+
 **Property ID** – Property ID is the unique ID given to the properties.
+
 **WoW** – Week on Week is the metric to compare the performance change over the week.
 
 Here is the list of measures:
@@ -131,10 +106,15 @@ Here is the list of measures:
 ### Filters Used
 
 **Week Number** – To review each week’s performance.
+
 **Month** – To assess monthly performance.
+
 **Property** – This filter provides insights into each property, facilitating decision-making.
+
 **City** – It helps in evaluating the market value of AtliQ.
+
 **Room Class** – This filter allows a detailed examination of room categories, aiding in improving room standards and availability.
+
 **Booking Platforms** – By selecting booking platforms, the marketing team can target their efforts more effectively.
 
 ### Dashboard Created

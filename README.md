@@ -24,18 +24,13 @@ Exploring the available data is crucial for effective analysis. Before diving in
 - Their properties offer rooms categorized as Elite, Premium, Presidential, and Standard.
 - Booking options encompass six main platforms along with some less effective alternatives.
 
-## Dataset Provided By Codebasics
+### Dataset Provided By Codebasics
 
 - **dim_date** – This table contains date-related information, including dates, week numbers, and day types (weekend and weekday).
-
 - **dim_hotels** – This table provides data on property identifiers, property names, categories, and city locations.
-
 - **dim_rooms** – This table details room identifiers and room classifications.
-
 - **fact_aggregated_bookings** – his fact table features property IDs, check-in dates, room categories, successful bookings, and capacity information.
-
 - **metrics list** – This dataset contains a collection of key performance measures, complete with the DAX formulas used to compute them.
-
 - **fact_bookings** – Tnother fact table, it includes supplementary data such as financial details. This data encompasses booking IDs, property IDs, booking dates, check-out dates, check-in dates, guest counts, room categories, booking platforms, ratings, booking statuses, revenue generated, and revenue realized.
 
 The stakeholders have provided a list of visual metrics to be examined:
@@ -66,13 +61,10 @@ The stakeholders have provided a list of visual metrics to be examined:
     - Cancellation rate %
 + **Percentage Change vs. the Previous Month**
 
-## Mockup Dashboard
+## 4. Mockup Dashboard
 The project's mockup dashboard presents a preview of the AtliQ hospitality data analytics initiative.
 
-## Dashboard Created
-Dashboard Link
 
-We have successfully created a comprehensive dashboard using the information and data provided by stakeholders. This dashboard showcases crucial metrics to aid AtliQ Grands' management in improving revenue generation.e.
 
 ##  Data Modelling
 Data modeling is the foundation of the report. All visuals are built upon the data model. Poor data modeling can affect the overall performance of the report. 
@@ -157,6 +149,11 @@ Here is the list of measures:
 **Room Class** – This filter allows a detailed examination of room categories, aiding in improving room standards and availability.
 
 **Booking Platforms** – By selecting booking platforms, the marketing team can target their efforts more effectively.
+
+## Dashboard Created
+Dashboard Link
+
+Successfully created a comprehensive dashboard using the information and data provided by stakeholders. This dashboard showcases crucial metrics to aid AtliQ Grands' management in improving revenue generations , bookings efficinecy and customer satisfaction.
 
 ## Learnt things from this Project
 - We acquired the skill to create a new visual, such as a calendar visual, using a matrix table for diverse analytical purposes.

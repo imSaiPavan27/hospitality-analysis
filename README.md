@@ -1,4 +1,4 @@
-# Provide Insights to the Revenue Team in the Hospitality Domain
+# Hospitality Analysis
 ### Live Interactive Dashboard : [Link to Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZjFhMmY2MmEtNzVjOC00NDM4LTg2YTQtMDVjZjJhYzI2OWIzIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 ### Linkedin Post : [Link to post](https://www.linkedin.com/posts/saipavankumar27_hospitality-domain-presentation-activity-7122955882279141377-syN0?utm_source=share&utm_medium=member_desktop)
 ## 1. Overview

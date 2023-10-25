@@ -74,7 +74,7 @@ After importing data into the Power BI, the following procedures are to be follo
 2. Establishing relationships among the  tables, employing either **Star Schema** or the **Snow Flake** methodology.
 3. Subsequently, conducting data validation against the benchmarks set by the stakeholders
 
-##  Dashboard Designing
+## 5. Dashboard Designing
 Based on mockups received as requirements, the team will start designing visuals and creating measures as needed.
 
 ### Home View
@@ -88,21 +88,13 @@ The different views are:
 | Revenue | It enables users to analyze revneue of the AtliQ's hotels and enables to understand the total bookings and expolring other financial metrics|
 | Booking   | It shows a detailed analysis of bookings efforts, which supports in explaining different key metrics |
 
-**Performance**
-The stats related to performance includes the hotel’s occupancy, cancellation %, room availability etc. All these factors directly contribute to the revenue. And some of these factors are controllable by the management whereas some factors are uncontrollable.
-
 Here is the list of basics:
 
 **Day Type** – Day is the category of days in a week. Weekday and Weekend. In the hospitality sector, the weekend is Friday and Saturday. Most of the customers checkout on Sunday.
-
 **Booking Platforms** – Booking platforms are the modes that are used by customers to book rooms. These include AtliQ’s own booking platform and third-party platforms as well.
-
 **Week Number**– Week number is the number of weeks in a year.
-
 **Property Name** – Property name is the name of individual hotels.
-
 **Property ID** – Property ID is the unique ID given to the properties.
-
 **WoW** – Week on Week is the metric to compare the performance change over the week.
 
 Here is the list of measures:
@@ -136,31 +128,40 @@ Here is the list of measures:
 | Realisation WoW change %  |  To get the Realisation change percentage week over week. Here, revcw  for current week, revpw for previous week |
 | DSRN WoW change % | To get the DSRN(Daily Sellable Room Nights) change percentage week over week.Here, revcw  for current week, revpw for previous week  |
 
-## Filters Used
+### Filters Used
 
 **Week Number** – To review each week’s performance.
-
 **Month** – To assess monthly performance.
-
 **Property** – This filter provides insights into each property, facilitating decision-making.
-
 **City** – It helps in evaluating the market value of AtliQ.
-
 **Room Class** – This filter allows a detailed examination of room categories, aiding in improving room standards and availability.
-
 **Booking Platforms** – By selecting booking platforms, the marketing team can target their efforts more effectively.
 
-## Dashboard Created
-Dashboard Link
+### Dashboard Created
+ [Link to Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZjFhMmY2MmEtNzVjOC00NDM4LTg2YTQtMDVjZjJhYzI2OWIzIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 
 Successfully created a comprehensive dashboard using the information and data provided by stakeholders. This dashboard showcases crucial metrics to aid AtliQ Grands' management in improving revenue generations , bookings efficinecy and customer satisfaction.
 
-## Learnt things from this Project
-- We acquired the skill to create a new visual, such as a calendar visual, using a matrix table for diverse analytical purposes.
+## 6. Project Outcomes
+
+### Learnt things from this Project
+- Acquired the skill to create a new visual, such as a calendar visual, using a matrix table for diverse analytical purposes.
 - By examining different cancellation policies employed by various hotels, we learned that most hotels charge zero fees for cancellations made three months before the booking date.
 - For cancellations after this period, charges typically range from 60% to 90% of the booking cost.
 
-## Some Important insights from the Dashboard
+### Key Metrics:
+- Total Bookings
+- Total Revenue
+- Average Rating
+- Total Capacity
+- Total Successful Bookings
+- Occupancy %
+- Total Cancelled Bookings
+- Cancellation Rate
+- Revenue Loss
+- Total Stay
+
+### Some Important insights from the Dashboard
 - Mumbai leads in revenue generation, amassing a substantial 669 million, with Bangalore, Hyderabad, and Delhi following suit.
 - Among the seven types of properties, AtliQ Exotica stands out with remarkable performance, raking in 320 million in revenue, boasting a solid rating of 3.62, achieving an impressive occupancy rate of 57%, and experiencing a cancellation rate of 24.4%.
 - AtliQ Bay takes the crown for the highest occupancy rate, reaching an impressive 66%.
